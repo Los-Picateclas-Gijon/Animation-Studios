@@ -1,0 +1,35 @@
+img.shirt{
+    height: 200px;
+    width: 200px;
+}
+
+img.stuffed{
+    height: 200px;
+    width: 200px;
+}
+
+img.posters{
+    height: 200px;
+    width: 200px;
+}
+
+img.dvd{
+    height: 200px;
+    width: 200px;
+}
+
+img.funkos{
+    height: 200px;
+    width: 200px;
+}
+
+img.others{
+    height: 200px;
+    width: 200px;
+}
+
+div.section{
+    display: flex;
+    flex-wrap: wrap;
+
+}
