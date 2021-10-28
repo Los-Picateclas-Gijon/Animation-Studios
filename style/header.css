@@ -6,8 +6,8 @@ header{
 }
 
 .logo{
-    width: 230px;
-    height: 130px;
+    width: 8em;
+    height: auto;
     display: block;
     float:left;
     margin: 20px;
@@ -15,9 +15,8 @@ header{
 }
 
 h1{
-    font-size: 130px;
+    font-size: 4em;
     text-align:justify;
-    padding: 100px;
 }
 
 
@@ -28,6 +27,6 @@ h1{
 }
 
 .cart{
-    width: 230px;
-    height: 130px;
+    width: 8em;
+    height: 8em;
 }

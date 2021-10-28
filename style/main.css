@@ -1,3 +1,44 @@
+main {
+    margin: 10% 10%;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+    background-color: #9c2828;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2vw;
+    color: #cbe5f3;
+    display: block;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 12vw 12vw; */
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6vw;
+    background-color: #8f4793;
+    height: 4vw;
+    color: white;
+}
+
 img.shirt{
     height: 200px;
     width: 200px;
