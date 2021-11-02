@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0.5vw 0.125px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery img{
+    width: 11.5vw;
+}
