@@ -11,6 +11,7 @@
 }
   
 .nav-menu label {
+    background-color: #E37305;
     box-sizing: border-box;
     display: inline-block;
     border: 1px solid black;
@@ -24,11 +25,11 @@
 }
 
 .nav-menu label:hover{
-    background: grey;
+    background: #E37305;
 }
 
 .nav-menu input:checked ~ label {
-    background: lightgrey;
+    background: #dea062;
 }
 
 .nav-menu ul{
@@ -39,7 +40,7 @@
 
 .nav-menu li {
     display: block;
-    background: lightgrey;
+    background: #dea062;
     margin: 0;
     padding: 10px;
     list-style: none;
