@@ -1,0 +1,51 @@
+.nav-menu ul{
+    display: none;
+}
+
+.nav-menu input:checked  ~ ul{
+    display:block;
+}
+
+.nav-menu input {
+    display: none;
+}
+  
+.nav-menu label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+}
+
+.nav-menu label:hover{
+    background: grey;
+}
+
+.nav-menu input:checked ~ label {
+    background: lightgrey;
+}
+
+.nav-menu ul{
+    margin-top: 0;
+    padding: 0;
+    width: 200px;
+}
+
+.nav-menu li {
+    display: block;
+    background: lightgrey;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+}
+
+.nav-menu li:hover {
+    filter: brightness(110%);
+}

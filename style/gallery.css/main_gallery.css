@@ -44,3 +44,15 @@
   .gallery-container img {
     width: 15vw;
 }
+
+.back-button {
+  width: 7vw;
+}
+
+.back {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

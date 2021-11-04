@@ -8,7 +8,6 @@
       "shirt descripcion-like"
       "shirt container-cart"
       "recommended recommended"
-      "back back";
   }
   
   .shirt { grid-area: shirt; }
@@ -19,7 +18,7 @@
   
   .recommended { grid-area: recommended; }
   
-  .back { grid-area: back; }
+
 
 .shirt img {
     width: 45vw;
@@ -41,16 +40,6 @@
     margin: 2vw 2vw;
     padding: 1vw 1vw;
     font-size: 1.5vw;
-}
-
-.back img {
-    width: 6vw;
-}
-
-.back {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container-cart {
