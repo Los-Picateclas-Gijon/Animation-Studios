@@ -1,6 +1,20 @@
+<<<<<<< HEAD
 @import url(/style/home.css/header_home.css);
 @import url(/style/home.css/main_home.css);
 @import url(/style/home.css/footer_home.css);
 
 @import url(/style/gallery.css/main_gallery.css);
 @import url(/style/detail.css/main_detail.css);
+=======
+@import url(./home.css/header_home.css);
+@import url(./home.css/main_home.css);
+@import url(./home.css/footer_home.css);
+
+@import url(./gallery.css/header_gallery.css);
+@import url(./gallery.css/main_gallery.css);
+@import url(./gallery.css/footer_gallery.css);
+
+@import url(./detail.css/header_detail.css);
+@import url(./detail.css/main_detail.css);
+@import url(./detail.css/footer_detail.css);
+>>>>>>> 487488b875a47b3933ee73e66d034eade7b77f7b
