@@ -1,20 +1,60 @@
-<<<<<<< HEAD
 @import url(/style/home.css/header_home.css);
 @import url(/style/home.css/main_home.css);
 @import url(/style/home.css/footer_home.css);
 
 @import url(/style/gallery.css/main_gallery.css);
 @import url(/style/detail.css/main_detail.css);
-=======
-@import url(./home.css/header_home.css);
-@import url(./home.css/main_home.css);
-@import url(./home.css/footer_home.css);
 
-@import url(./gallery.css/header_gallery.css);
-@import url(./gallery.css/main_gallery.css);
-@import url(./gallery.css/footer_gallery.css);
 
-@import url(./detail.css/header_detail.css);
-@import url(./detail.css/main_detail.css);
-@import url(./detail.css/footer_detail.css);
->>>>>>> 487488b875a47b3933ee73e66d034eade7b77f7b
+
+ul{
+    display: none;
+  }
+
+  input:checked  ~ ul{
+    display:block;
+  }
+
+  input {
+    display: none;
+  }
+  
+  label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+
+  label:hover{
+    background: grey;
+  }
+
+  input:checked ~ label {
+    background: lightgrey;
+  }
+
+  ul{
+    margin-top: 0;
+    padding: 0;
+    width: 200px;
+  }
+
+  li {
+    display: block;
+    background: lightgrey;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+  }
+
+  li:hover {
+    filter: brightness(110%);
+  }
