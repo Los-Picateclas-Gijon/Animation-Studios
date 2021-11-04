@@ -1,0 +1,80 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.2fr 0.9fr 0.9fr 0.3fr;
+    gap: 34px 30px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "shirt descripcion-like"
+      "shirt container-cart"
+      "recommended recommended"
+      "back back";
+  }
+  
+  .shirt { grid-area: shirt; }
+  
+  .descripcion-like { grid-area: descripcion-like; }
+  
+  .container-cart { grid-area: container-cart; }
+  
+  .recommended { grid-area: recommended; }
+  
+  .back { grid-area: back; }
+
+.shirt img {
+    width: 45vw;
+}
+
+.descripcion-like {
+    border: 0.03vw solid black;
+    height: 25vw;
+}
+
+.descripcion-like img {
+    width: 4vw;
+    justify-self: right;
+    margin: 2vw 2vw;
+}
+
+.description p {
+    background-color: lightgrey;
+    margin: 2vw 2vw;
+    padding: 1vw 1vw;
+    font-size: 1.5vw;
+}
+
+.back img {
+    width: 6vw;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cart {
+    border: 0.03vw solid black;
+    height: 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-cart {
+    height: 10vw;
+    width: 20vw;
+    margin-top: 2vw;
+    background-color: #E37305;
+}
+
+.recommended img {
+    width: 19vw;
+}
+
+.recommended {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}

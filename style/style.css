@@ -1,3 +1,6 @@
-@import url(./header.css);
-@import url(./main.css);
-@import url(./footer.css);
+@import url(/style/home.css/header_home.css);
+@import url(/style/home.css/main_home.css);
+@import url(/style/home.css/footer_home.css);
+
+@import url(/style/gallery.css/main_gallery.css);
+@import url(/style/detail.css/main_detail.css);
